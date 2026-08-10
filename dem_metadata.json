@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Elizabeth DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Elizabeth boundary, adaptively resampled to 8.7 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 2.6615213518514076,
+  "pixelSizeFeet": 8.732025432548431,
+  "adaptiveResolution": true,
+  "width": 5114,
+  "height": 3129,
+  "nodata": -999999,
+  "minMeters": -3.307,
+  "maxMeters": 28.609,
+  "meanMeters": 5.498,
+  "stdDevMeters": 4.748,
+  "minFeet": -10.849737532765001,
+  "maxFeet": 93.86154855605501,
+  "webMercatorBounds": [
+    -8265942.037575,
+    4958501.055112057,
+    -8252331.017381632,
+    4966828.955422
+  ],
+  "leafletBounds": [
+    [
+      40.6339721,
+      -74.2542207
+    ],
+    [
+      40.6907169,
+      -74.1319555
+    ]
+  ],
+  "files": {
+    "demCog": "elizabeth_dem_5ft_cog.tif",
+    "hillshadeCog": "elizabeth_hillshade_cog.tif",
+    "hillshadePng": "elizabeth_hillshade.png",
+    "boundaryGeojson": "elizabeth_boundary.geojson"
+  }
+}
